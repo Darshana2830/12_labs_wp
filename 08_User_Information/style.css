@@ -1,0 +1,68 @@
+
+.form-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:0 22px
+}
+
+.choices{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px
+}
+
+.choices label{
+    font-size:13px
+}
+
+.choices input{
+    accent-color:var(--accent)
+}
+
+.details p{
+    display:flex;
+    gap:15px;
+    border-bottom:1px solid var(--line);
+    padding:11px 0;
+    margin:0
+}
+
+.details strong{
+    min-width:130px;
+    color:var(--accent)
+}
+
+@media(max-width:560px){
+    .form-grid{
+        grid-template-columns:1fr
+    }
+
+    .details p{
+        display:block
+    }
+
+    .details strong{
+        display:block
+    }
+}
+
+
+/* Independent visual direction: Lab 08 — form */
+body{background:#fff6e8;color:#4c3324;font-family:Verdana,sans-serif}
+.site-head{background:#4c3324;border-color:#f1d1ad}
+.site-head .brand,.site-head .back{color:#fff6e8}
+.site-head .brand span{color:#d47736}
+.hero h1,.section-title{font-family:Verdana,sans-serif;color:#4c3324}
+.hero h1 em{color:#d47736}
+.kicker{color:#d47736}
+.panel,.tile,.card{background:#fff;color:#4c3324;border:1px solid #f1d1ad;border-radius:16px;box-shadow:0 9px 25px #4c332412}
+table th{background:#4c3324;color:#fff6e8}
+table td{border-bottom:1px solid #f1d1ad}
+tbody tr:nth-child(even){background:#f1d1ad55}
+input,select,textarea{border:1px solid #f1d1ad;border-radius:8px;padding:10px;background:#fff;color:#4c3324}
+button,.button{background:#d47736;color:#4c3324;border-color:#d47736}
+.site-foot{border-color:#f1d1ad;color:#4c3324}
+
+
+/* DISTINCT THEME 08: Personal profile / soft lavender cards */
+body{background:#f0eef8!important;color:#302d46!important;font-family:Arial,sans-serif!important}.site-head{background:#fff!important;border-bottom:1px solid #d9d3ec!important}.hero{background:#ded8f1!important;padding:38px!important;border-radius:24px 24px 4px 4px!important}.hero h1{font-family:Georgia,serif!important;color:#453b70!important;font-size:clamp(38px,6vw,62px)!important}.panel{background:#fff!important;border:1px solid #ddd7ef!important;border-radius:18px!important;box-shadow:0 14px 35px #51427d12!important;padding:clamp(20px,4vw,38px)!important}.form-grid{gap:20px 24px!important}.panel input,.panel select,.panel textarea{background:#faf9ff!important;border:1px solid #c9c0e3!important;border-radius:9px!important;padding:12px!important}button,.btn{background:#62548e!important;color:#fff!important;border-radius:9px!important}

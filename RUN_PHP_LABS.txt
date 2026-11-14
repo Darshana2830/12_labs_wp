@@ -1,0 +1,31 @@
+PHP LABS — RUNNING GUIDE (DARSHANA 010)
+========================================
+
+1. Install XAMPP for Windows from https://www.apachefriends.org/
+2. Open "XAMPP Control Panel".
+3. Click Start beside Apache. Wait until Apache shows as running.
+   MySQL is NOT required for these three exercises because they do not use a database.
+4. Extract this ZIP.
+5. Copy the complete folder named "Darshana_010" into:
+      C:\xampp\htdocs\
+   The result should look like:
+      C:\xampp\htdocs\Darshana_010\index.html
+      C:\xampp\htdocs\Darshana_010\10_PHP_Session\index.php
+6. Open Chrome or Edge and visit:
+      http://localhost/Darshana_010/
+7. Open the PHP experiments using these URLs:
+      Lab 10 — PHP Session:
+      http://localhost/Darshana_010/10_PHP_Session/index.php
+
+      Lab 11 — PHP Date and Time:
+      http://localhost/Darshana_010/11_PHP_Date_Time/index.php
+
+      Lab 12 — Age Verification:
+      http://localhost/Darshana_010/12_PHP_Age_Verification/index.php
+
+IMPORTANT
+- Do not double-click a .php file or open it using file:///.
+- PHP must be served through Apache using a http://localhost/ URL.
+- Keep the folders in their original positions; PHP pages use relative CSS and page links.
+- To stop the local server, click Stop beside Apache in XAMPP.
+- If Apache cannot start, another application may already be using port 80 or 443.

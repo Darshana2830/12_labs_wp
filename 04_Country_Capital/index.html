@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Country and Capital Finder</title>
+    <link rel="stylesheet" href="../assets/site.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-head">
+        <div class="head-inner">
+            <a class="brand" href="../index.html">WP <span>/ 04 GEOGRAPHY</span></a>
+            <a class="back" href="../index.html">← Portfolio</a>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section class="hero">
+            <p class="kicker">Interactive geography</p>
+            <h1>Find the <em>capital.</em></h1>
+            <p class="lead">Select one of the five countries. Its capital city will be displayed next to the selection box.</p>
+        </section>
+
+        <section class="finder panel">
+            <div>
+                <label class="field" for="country">Select a country</label>
+                <select id="country">
+                    <option value="">Choose a country</option>
+                    <option value="New Delhi">India</option>
+                    <option value="Tokyo">Japan</option>
+                    <option value="Paris">France</option>
+                    <option value="Canberra">Australia</option>
+                    <option value="Ottawa">Canada</option>
+                </select>
+            </div>
+
+            <div class="capital-box">
+                <span class="kicker">Capital city</span>
+                <p id="capital" aria-live="polite">—</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-foot">
+        <div class="wrap">Experiment 04 · HTML select and JavaScript</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

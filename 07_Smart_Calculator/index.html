@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="../assets/site.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-head">
+        <div class="head-inner">
+            <a class="brand" href="../index.html">WP <span>/ 07 CALCULATOR</span></a>
+            <a class="back" href="../index.html">← Portfolio</a>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section class="hero">
+            <p class="kicker">JavaScript arithmetic</p>
+            <h1>Numbers made <em>simple.</em></h1>
+            <p class="lead">Enter two values, select an operation and calculate the result.</p>
+        </section>
+
+        <form id="calculator" class="panel">
+            <div class="calc-grid">
+                <div>
+                    <label class="field" for="first">First number</label>
+                    <input id="first" type="number" step="any" required placeholder="e.g. 24">
+                </div>
+                <div>
+                    <label class="field" for="second">Second number</label>
+                    <input id="second" type="number" step="any" required placeholder="e.g. 6">
+                </div>
+            </div>
+
+            <label class="field" for="operation">Operation</label>
+            <select id="operation">
+                <option value="add">Addition (+)</option>
+                <option value="subtract">Subtraction (−)</option>
+                <option value="multiply">Multiplication (×)</option>
+                <option value="divide">Division (÷)</option>
+            </select>
+
+            <div class="actions">
+                <button class="btn" type="submit">Calculate result</button>
+                <button class="btn alt" type="reset">Clear</button>
+            </div>
+
+            <div class="answer" aria-live="polite">
+                <span class="kicker">Result</span>
+                <output id="result">—</output>
+            </div>
+        </form>
+    </main>
+
+    <footer class="site-foot">
+        <div class="wrap">Experiment 07 · JavaScript functions and form elements</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+.date-list p{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    padding:14px 0;
+    margin:0;
+    border-bottom:1px solid var(--line)
+}
+
+.date-list p:last-child{
+    border:0
+}
+
+.date-list span{
+    color:var(--muted)
+}
+
+.date-list strong{
+    font:22px Georgia;
+    color:var(--accent)
+}
+
+
+/* Independent visual direction: Lab 11 — clock */
+body{background:#f5f0ff;color:#34234f;font-family:Georgia,sans-serif}
+.site-head{background:#34234f;border-color:#ded0f1}
+.site-head .brand,.site-head .back{color:#f5f0ff}
+.site-head .brand span{color:#9167bd}
+.hero h1,.section-title{font-family:Georgia,sans-serif;color:#34234f}
+.hero h1 em{color:#9167bd}
+.kicker{color:#9167bd}
+.panel,.tile,.card{background:#fff;color:#34234f;border:1px solid #ded0f1;border-radius:8px;box-shadow:0 9px 25px #34234f12}
+table th{background:#34234f;color:#f5f0ff}
+table td{border-bottom:1px solid #ded0f1}
+tbody tr:nth-child(even){background:#ded0f155}
+input,select,textarea{border:1px solid #ded0f1;border-radius:8px;padding:10px;background:#fff;color:#34234f}
+button,.button{background:#9167bd;color:#fff;border-color:#9167bd}
+.site-foot{border-color:#ded0f1;color:#34234f}
+
+
+/* DISTINCT THEME 11: Date and time / analog calendar */
+body{background:#f4e9d8!important;color:#3c2c20!important;font-family:Georgia,serif!important}.site-head{background:#563b2c!important;color:#fff!important;border-bottom:5px solid #c18b4e!important}.site-head a{color:#fff!important}.hero{text-align:center!important;background:#ead6b9!important;padding:42px!important;border-radius:50% 50% 4px 4px / 18% 18% 4px 4px!important}.hero h1{font-family:Georgia,serif!important;color:#573a25!important}.panel.date-list{background:#fffaf1!important;border:1px solid #d8c2a1!important;border-radius:4px!important;max-width:720px!important;margin:25px auto!important;padding:28px!important;box-shadow:0 14px 30px #563b2c12!important}.date-list p{padding:18px 0!important;border-bottom:1px dashed #cbb18d!important;font-size:18px!important}.date-list strong{color:#8d5527!important;font-size:20px!important}

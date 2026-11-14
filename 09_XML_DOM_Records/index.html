@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>XML DOM Library Records</title>
+    <link rel="stylesheet" href="../assets/site.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-head">
+        <div class="head-inner">
+            <a class="brand" href="../index.html">WP <span>/ 09 XML DOM</span></a>
+            <a class="back" href="../index.html">← Portfolio</a>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section class="hero">
+            <p class="kicker">Extensible Markup Language</p>
+            <h1>Read the <em>records.</em></h1>
+            <p class="lead">The JavaScript DOMParser reads the external XML document. The book nodes are then displayed in the table.</p>
+        </section>
+
+        <section class="panel">
+            <button id="loadXml" class="btn" type="button">Load XML records</button>
+            <p id="status" class="note" aria-live="polite">Select the button to read books.xml.</p>
+
+            <div class="table-scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Book ID</th>
+                            <th>Category</th>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="records"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-foot">
+        <div class="wrap">Experiment 09 · XML, DOMParser and HTML table</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

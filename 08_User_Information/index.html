@@ -1,0 +1,75 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="../assets/site.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-head">
+        <div class="head-inner">
+            <a class="brand" href="../index.html">WP <span>/ 08 USER FORM</span></a>
+            <a class="back" href="../index.html">← Portfolio</a>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section class="hero">
+            <p class="kicker">Personal information</p>
+            <h1>Tell us <em>about you.</em></h1>
+            <p class="lead">Enter the requested details. The next page will display the information you submit.</p>
+        </section>
+
+        <form id="userForm" class="panel">
+            <div class="form-grid">
+                <div>
+                    <label class="field" for="name">Name</label>
+                    <input id="name" name="name" required>
+                </div>
+                <div>
+                    <span class="field">Gender</span>
+                    <div class="choices">
+                        <label><input type="radio" name="gender" value="Female" required> Female</label>
+                        <label><input type="radio" name="gender" value="Male"> Male</label>
+                        <label><input type="radio" name="gender" value="Other"> Other</label>
+                    </div>
+                </div>
+                <div>
+                    <label class="field" for="mobile">Mobile number</label>
+                    <input id="mobile" name="mobile" type="tel" pattern="[0-9]{10}" required placeholder="10 digits">
+                </div>
+                <div>
+                    <label class="field" for="email">Mail ID</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div>
+                    <label class="field" for="city">City</label>
+                    <input id="city" name="city" required>
+                </div>
+                <div>
+                    <label class="field" for="state">State</label>
+                    <input id="state" name="state" required>
+                </div>
+                <div>
+                    <label class="field" for="country">Country</label>
+                    <input id="country" name="country" required>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="btn" type="submit">Continue to details</button>
+                <button class="btn alt" type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="site-foot">
+        <div class="wrap">Experiment 08 · JavaScript and multiple pages</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

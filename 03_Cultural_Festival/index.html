@@ -1,0 +1,92 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Campus Kaleidoscope Registration</title>
+    <link rel="stylesheet" href="../assets/site.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-head">
+        <div class="head-inner">
+            <a class="brand" href="../index.html">WP <span>/ 03 FESTIVAL</span></a>
+            <a class="back" href="../index.html">← Portfolio</a>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section class="hero">
+            <p class="kicker">Campus Kaleidoscope · Annual cultural festival</p>
+            <h1>Make your<br><em>moment.</em></h1>
+            <p class="lead">Register to participate in the campus cultural celebration. Complete each section and submit your details.</p>
+        </section>
+
+        <form id="festivalForm" class="panel">
+            <h2>Participant details</h2>
+            <div class="form-grid">
+                <div>
+                    <label class="field" for="fullName">Full name</label>
+                    <input id="fullName" name="fullName" required placeholder="Your name">
+                </div>
+                <div>
+                    <label class="field" for="email">Email address</label>
+                    <input id="email" name="email" type="email" required placeholder="you@example.com">
+                </div>
+                <div>
+                    <label class="field" for="mobile">Mobile number</label>
+                    <input id="mobile" name="mobile" type="tel" pattern="[0-9]{10}" required placeholder="10 digit number">
+                </div>
+                <div>
+                    <label class="field" for="college">Institute / college</label>
+                    <input id="college" name="college" required placeholder="Institute name">
+                </div>
+            </div>
+
+            <hr>
+
+            <h2>Event preferences</h2>
+            <span class="field">Gender</span>
+            <div class="choices">
+                <label><input type="radio" name="gender" value="Female" required> Female</label>
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Prefer not to say"> Prefer not to say</label>
+            </div>
+
+            <label class="field" for="event">Primary event</label>
+            <select id="event" name="event" required>
+                <option value="">Choose an event</option>
+                <option>Music</option>
+                <option>Dance</option>
+                <option>Drama</option>
+                <option>Fine Arts</option>
+                <option>Photography</option>
+            </select>
+
+            <span class="field">Other interests</span>
+            <div class="choices">
+                <label><input type="checkbox" name="interests" value="Volunteering"> Volunteering</label>
+                <label><input type="checkbox" name="interests" value="Photography"> Photography</label>
+                <label><input type="checkbox" name="interests" value="Literature"> Literature</label>
+            </div>
+
+            <label class="field" for="message">Tell us about your act</label>
+            <textarea id="message" name="message" rows="4" placeholder="Describe your performance or any special requirements"></textarea>
+
+            <div class="actions">
+                <button class="btn" type="submit">Submit registration</button>
+                <button class="btn alt" type="reset">Reset form</button>
+            </div>
+
+            <p id="formStatus" class="note" aria-live="polite"></p>
+        </form>
+    </main>
+
+    <footer class="site-foot">
+        <div class="wrap">Experiment 03 · HTML form elements</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

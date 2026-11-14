@@ -1,0 +1,48 @@
+
+.table-scroll{
+    overflow-x:auto
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    min-width:650px;
+    font-size:13px;
+    margin-top:12px
+}
+
+th,td{
+    padding:13px;
+    text-align:left;
+    border-bottom:1px solid var(--line)
+}
+
+th{
+    font:16px Georgia;
+    background:#eeede6
+}
+
+tbody tr:hover{
+    background:#f0f0e8
+}
+
+
+/* Independent visual direction: Lab 09 — xml */
+body{background:#eef3e9;color:#263c2b;font-family:Georgia,sans-serif}
+.site-head{background:#263c2b;border-color:#cbd9c1}
+.site-head .brand,.site-head .back{color:#eef3e9}
+.site-head .brand span{color:#668b55}
+.hero h1,.section-title{font-family:Georgia,sans-serif;color:#263c2b}
+.hero h1 em{color:#668b55}
+.kicker{color:#668b55}
+.panel,.tile,.card{background:#fff;color:#263c2b;border:1px solid #cbd9c1;border-radius:2px;box-shadow:0 9px 25px #263c2b12}
+table th{background:#263c2b;color:#eef3e9}
+table td{border-bottom:1px solid #cbd9c1}
+tbody tr:nth-child(even){background:#cbd9c155}
+input,select,textarea{border:1px solid #cbd9c1;border-radius:2px;padding:10px;background:#fff;color:#263c2b}
+button,.button{background:#668b55;color:#263c2b;border-color:#668b55}
+.site-foot{border-color:#cbd9c1;color:#263c2b}
+
+
+/* DISTINCT THEME 09: Database ledger / clean grid */
+body{background:#f0f2ed!important;color:#28332c!important;font-family:Arial,sans-serif!important}.site-head{background:#283b31!important;color:#fff!important;border-bottom:6px solid #a3b79f!important}.site-head a{color:#fff!important}.hero{background:#dce5d9!important;padding:30px!important;border-bottom:1px solid #aab9a7!important}.hero h1{font-family:Georgia,serif!important;color:#284331!important}.panel{background:#fff!important;border:1px solid #c4d0c2!important;border-radius:0!important;padding:22px!important;box-shadow:none!important}.table-scroll{overflow-x:auto!important}table{border-collapse:collapse!important;min-width:650px!important}th{background:#354e40!important;color:#fff!important;text-align:left!important;text-transform:uppercase!important;letter-spacing:.8px!important}td,th{padding:14px!important;border:1px solid #d3ddd1!important}tr:nth-child(even){background:#f0f5ee!important}

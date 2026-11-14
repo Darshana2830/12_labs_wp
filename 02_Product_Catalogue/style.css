@@ -1,0 +1,39 @@
+/* Lab 02 — StyleHub product directory / blush and plum */
+body{background:#fbf1f2;color:#45263a}
+.site-head{background:#fff8f7;border-bottom:1px solid #e8cfd4}.site-head .brand{color:#572b43}.site-head .brand span{color:#b14d79}
+.hero{padding:50px 0 30px}.hero h1{font:500 clamp(38px,6vw,62px) Georgia;letter-spacing:-1.5px}.hero h1 em{color:#b14d79}
+.hero .kicker{color:#a34870}
+.panel{background:#fffafb;border:1px solid #edcfd8;box-shadow:0 14px 34px #713a4a12;padding:20px;border-radius:4px}
+.table-scroll{overflow-x:auto}table{width:100%;min-width:790px;border-collapse:separate;border-spacing:0;font-size:13px}
+th{background:#f4dfe5;color:#6e304d;font:600 13px Georgia;letter-spacing:.3px}
+th,td{padding:13px 12px;text-align:left;border-bottom:1px solid #efdde2;vertical-align:middle}
+tbody tr:nth-child(odd){background:#fff}.table-scroll tbody tr:nth-child(even){background:#fcf3f5}
+tbody tr:hover{background:#f8e7ec}
+.product-image{width:100px}.product-image img{display:block;width:82px;height:62px;object-fit:contain;padding:4px;background:#f8e9ed;border:1px solid #f0d5dd;border-radius:3px}
+.price{font-weight:700;color:#9e3f6a;white-space:nowrap}
+.site-foot{border-color:#e6cbd3;color:#8c6b78}
+@media(max-width:600px){.panel{padding:12px}.hero{padding-top:34px}}
+
+
+/* DISTINCT THEME 02: Boutique retail / blush and plum */
+body{background:#fbf1f2!important;color:#45263a!important;font-family:Arial,sans-serif!important}.site-head{background:#fff8f7!important;border-bottom:1px solid #e8cfd4!important}.hero{background:#6d3c58!important;color:#fff!important;padding:40px!important;border-radius:28px!important}.hero h1{font-family:Arial,sans-serif!important;font-size:clamp(38px,6vw,66px)!important}.panel{background:#fff!important;border:1px solid #ead5dc!important;border-radius:20px!important;box-shadow:0 15px 35px #6d3c5815!important}.table-scroll{overflow-x:auto!important}table{border-collapse:separate!important;border-spacing:0!important}th{background:#6d3c58!important;color:#fff!important}td{border-bottom:1px solid #f0e1e5!important}
+
+/* Lab 02: individual product photographs on clean white backgrounds */
+.product-thumb img, .product-image img {
+  display: block;
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  padding: 3px;
+  margin: 0 auto;
+}
+.product-thumb, .product-image {
+  text-align: center;
+  vertical-align: middle;
+  min-width: 125px;
+  background: #fff;
+}

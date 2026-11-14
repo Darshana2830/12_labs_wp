@@ -1,0 +1,36 @@
+
+.message{
+    padding:15px;
+    margin-top:22px;
+    border:1px solid var(--line);
+    background:#eeede6
+}
+
+.message.success{
+    border-left:4px solid var(--accent)
+}
+
+.message.error{
+    border-left:4px solid #8b5d4b
+}
+
+
+/* Independent visual direction: Lab 12 — verify */
+body{background:#fff0e9;color:#512c25;font-family:Trebuchet MS,sans-serif}
+.site-head{background:#512c25;border-color:#efc8b8}
+.site-head .brand,.site-head .back{color:#fff0e9}
+.site-head .brand span{color:#c65e45}
+.hero h1,.section-title{font-family:Trebuchet MS,sans-serif;color:#512c25}
+.hero h1 em{color:#c65e45}
+.kicker{color:#c65e45}
+.panel,.tile,.card{background:#fff;color:#512c25;border:1px solid #efc8b8;border-radius:8px;box-shadow:0 9px 25px #512c2512}
+table th{background:#512c25;color:#fff0e9}
+table td{border-bottom:1px solid #efc8b8}
+tbody tr:nth-child(even){background:#efc8b855}
+input,select,textarea{border:1px solid #efc8b8;border-radius:8px;padding:10px;background:#fff;color:#512c25}
+button,.button{background:#c65e45;color:#512c25;border-color:#c65e45}
+.site-foot{border-color:#efc8b8;color:#512c25}
+
+
+/* DISTINCT THEME 12: Age verification / access checkpoint */
+body{background:#e7f0ed!important;color:#1d3934!important;font-family:Arial,sans-serif!important}.site-head{background:#123f39!important;color:#fff!important;border-bottom:5px solid #4da18b!important}.site-head a{color:#fff!important}.hero{background:#cfe4dc!important;padding:34px!important;border-left:9px solid #347c6a!important}.hero h1{font-family:Arial,sans-serif!important;font-weight:800!important;color:#17483e!important;letter-spacing:-2px!important}.panel{background:#fff!important;border:1px solid #b8d4ca!important;border-radius:20px!important;padding:clamp(20px,4vw,36px)!important;box-shadow:0 16px 36px #17483e14!important}.panel input{background:#f6fbf8!important;border:1px solid #9fc4b6!important;border-radius:8px!important;padding:13px!important}.message{border-radius:10px!important;padding:16px!important}button,.btn{background:#236b59!important;color:#fff!important;border-radius:8px!important}

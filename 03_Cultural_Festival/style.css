@@ -1,0 +1,67 @@
+
+.form-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:0 22px
+}
+
+form h2{
+    font:25px Georgia;
+    margin:0 0 12px
+}
+
+form hr{
+    border:0;
+    border-top:1px solid var(--line);
+    margin:28px 0
+}
+
+.choices{
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+    margin:7px 0 16px
+}
+
+.choices label{
+    font-size:13px;
+    display:flex;
+    align-items:center;
+    gap:6px
+}
+
+.choices input{
+    accent-color:var(--accent)
+}
+
+#formStatus{
+    min-height:20px;
+    margin-top:16px
+}
+
+@media(max-width:560px){
+    .form-grid{
+        grid-template-columns:1fr
+    }
+}
+
+
+/* Independent visual direction: Lab 03 — festival */
+body{background:#f4f0ff;color:#2d2452;font-family:Trebuchet MS,sans-serif}
+.site-head{background:#2d2452;border-color:#d8cff4}
+.site-head .brand,.site-head .back{color:#f4f0ff}
+.site-head .brand span{color:#7755c8}
+.hero h1,.section-title{font-family:Trebuchet MS,sans-serif;color:#2d2452}
+.hero h1 em{color:#7755c8}
+.kicker{color:#7755c8}
+.panel,.tile,.card{background:#fff;color:#2d2452;border:1px solid #d8cff4;border-radius:16px;box-shadow:0 9px 25px #2d245212}
+table th{background:#2d2452;color:#f4f0ff}
+table td{border-bottom:1px solid #d8cff4}
+tbody tr:nth-child(even){background:#d8cff455}
+input,select,textarea{border:1px solid #d8cff4;border-radius:8px;padding:10px;background:#fff;color:#2d2452}
+button,.button{background:#7755c8;color:#fff;border-color:#7755c8}
+.site-foot{border-color:#d8cff4;color:#2d2452}
+
+
+/* DISTINCT THEME 03: Arts festival / vivid editorial */
+body{background:#fff0df!important;color:#35211d!important;font-family:Arial,sans-serif!important}.site-head{background:#f25c36!important;color:white!important;border:0!important}.site-head a{color:white!important}.hero{background:#f25c36!important;color:#fff!important;padding:clamp(35px,7vw,80px)!important;border-radius:0 0 90px 0!important}.hero h1{font-size:clamp(42px,8vw,82px)!important;line-height:.92!important;text-transform:uppercase!important;letter-spacing:-3px!important}.panel{background:#fffaf2!important;border:2px solid #f4b49c!important;border-radius:4px 34px 4px 34px!important;box-shadow:12px 12px 0 #f7c8ae!important}.panel input,.panel select,.panel textarea{background:#fff!important;border:1px solid #e9b39e!important;border-radius:4px!important}button,.btn{background:#28211e!important;color:#fff!important;border-radius:30px!important}

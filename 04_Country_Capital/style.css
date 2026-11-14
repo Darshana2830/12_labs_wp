@@ -1,0 +1,52 @@
+
+.finder{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+    align-items:center
+}
+
+.capital-box{
+    border-left:2px solid var(--accent);
+    padding:8px 24px;
+    min-height:110px
+}
+
+.capital-box p{
+    font:34px Georgia;
+    color:var(--accent);
+    margin:9px 0
+}
+
+@media(max-width:560px){
+    .finder{
+        grid-template-columns:1fr
+    }
+
+    .capital-box{
+        border-left:0;
+        border-top:2px solid var(--accent);
+        padding:18px 0 0
+    }
+}
+
+
+/* Independent visual direction: Lab 04 — selector */
+body{background:#eaf8f7;color:#173d3a;font-family:Arial,sans-serif}
+.site-head{background:#173d3a;border-color:#bce6df}
+.site-head .brand,.site-head .back{color:#eaf8f7}
+.site-head .brand span{color:#16877c}
+.hero h1,.section-title{font-family:Arial,sans-serif;color:#173d3a}
+.hero h1 em{color:#16877c}
+.kicker{color:#16877c}
+.panel,.tile,.card{background:#fff;color:#173d3a;border:1px solid #bce6df;border-radius:8px;box-shadow:0 9px 25px #173d3a12}
+table th{background:#173d3a;color:#eaf8f7}
+table td{border-bottom:1px solid #bce6df}
+tbody tr:nth-child(even){background:#bce6df55}
+input,select,textarea{border:1px solid #bce6df;border-radius:8px;padding:10px;background:#fff;color:#173d3a}
+button,.button{background:#16877c;color:#fff;border-color:#16877c}
+.site-foot{border-color:#bce6df;color:#173d3a}
+
+
+/* DISTINCT THEME 04: Geography explorer / atlas */
+body{background:#e8f0f5!important;color:#203a4b!important;font-family:Trebuchet MS,Arial,sans-serif!important}.site-head{background:#163d56!important;color:#fff!important}.site-head a{color:#fff!important}.hero{background:#cbdce6!important;padding:34px!important;border-left:8px solid #3d7893!important}.hero h1{font-family:Georgia,serif!important;color:#173f57!important}.finder{background:#fff!important;border:1px solid #b7cedb!important;border-radius:3px!important;box-shadow:0 14px 35px #173f5718!important;padding:clamp(20px,4vw,38px)!important}.capital-box{background:#eaf3f7!important;border-left:6px solid #4b8aa4!important;padding:24px!important}select{background:#f7fbfd!important;border:1px solid #8db0c1!important;border-radius:3px!important;padding:12px!important}
